@@ -4,7 +4,7 @@ const ApplicantSchema = new mongoose.Schema({
     // Log-in
     username: { type: String, unique: true, required: true },
     password: { type: String, required: true },
-    email_address: { type: String, required: true, unique: true },
+    email: { type: String, required: true, unique: true },
 
     surname: { type: String, default: "" },
     given_name: { type: String, default: "" },

@@ -14,7 +14,7 @@ app.use(express.json());
 require('./routes/applicantRoute')(app);
 require('./routes/adminRoute')(app);
 require('./routes/assessmentRoute')(app);
-require('./routes/questionRoute')(app);
+// require('./routes/questionRoute')(app);
 
 app.get('/', (req, res) => res.send('Admission System API is running...'));
 
