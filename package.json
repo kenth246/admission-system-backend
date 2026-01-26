@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "chart.js": "^4.5.1",
+    "lucide-react": "^0.562.0",
+    "phil-reg-prov-mun-brgy": "^1.1.0",
+    "react-router-dom": "^7.12.0"
+  }
+}
